@@ -1,0 +1,124 @@
+# <?xml version="1.0" ?>
+# <DataFileHeader>
+#   <Variables>
+#     <Element name="PulseProgram" type="dict">
+#       <Element name="PulseProgram" type="str">C:/Users/team_red/Documents/ControlTest/RFSoC_RamanTest/config/PulseProgramsPlus/barebones_rfsoc.ppp</Element>
+#       <Element name="DummyForStepInPlace" type="int">0</Element>
+#       <Element name="waitTime" type="int">0</Element>
+#       <Element name="CoolingTime" type="Quantity">0.5 ms</Element>
+#       <Element name="PumpTime" type="Quantity">50 탎</Element>
+#       <Element name="SBPumpTime" type="Quantity">10 탎</Element>
+#       <Element name="DetectTime" type="Quantity">250 탎</Element>
+#       <Element name="experiments" type="Quantity">100</Element>
+#       <Element name="EITTime" type="Quantity">500 탎</Element>
+#       <Element name="IndvAOMDelay" type="Quantity">50 탎</Element>
+#       <Element name="delta_t" type="int">0</Element>
+#       <Element name="dispTime" type="int">0</Element>
+#       <Element name="starkShift" type="int">0</Element>
+#       <Element name="CoolingDDSAmp" type="int">1000</Element>
+#       <Element name="PumpingDDSAmp" type="int">1000</Element>
+#       <Element name="CoolingDDSFreq" type="Quantity">200.0 MHz</Element>
+#       <Element name="PumpingDDSFreq" type="Quantity">205.0 MHz</Element>
+#       <Element name="SBCool_Freq0_R" type="Quantity">0 MHz</Element>
+#       <Element name="SBCool_Freq1_R" type="Quantity">0 MHz</Element>
+#       <Element name="SBCool_Freq2_R" type="int">0</Element>
+#       <Element name="SBCool_Freq3_R" type="int">0</Element>
+#       <Element name="SBCool_Freq4_R" type="int">0</Element>
+#       <Element name="SBCool_Iter0_R" type="Quantity">10</Element>
+#       <Element name="SBCool_Iter1_R" type="Quantity">5</Element>
+#       <Element name="SBCool_Iter2_R" type="int">5</Element>
+#       <Element name="SBCool_Iter3_R" type="int">5</Element>
+#       <Element name="SBCool_Iter4_R" type="int">5</Element>
+#       <Element name="memsDelay" type="Quantity">25 탎</Element>
+#       <Element name="memsVoltages" type="Quantity">0</Element>
+#       <Element name="mems11" type="Quantity">0</Element>
+#       <Element name="mems12" type="Quantity">0</Element>
+#       <Element name="mems21" type="Quantity">0</Element>
+#       <Element name="mems22" type="Quantity">0</Element>
+#       <Element name="memsCalibrate" type="Quantity">0</Element>
+#       <Element name="j.__global_delay__" type="int">0</Element>
+#       <Element name="j.__repeats__" type="Quantity">100</Element>
+#       <Element name="j.pd.us" type="float">1e-06</Element>
+#       <Element name="j.n_circuits" type="int">1</Element>
+#       <Element name="j.indv1_tone2_freq" type="Quantity">228.06817972858286</Element>
+#       <Element name="j.pi2_time" type="Quantity">57.88732921832571</Element>
+#       <Element name="j.qubit_wait_time" type="Quantity">0.0</Element>
+#       <Element name="j.analyse_phase" type="float">0.0</Element>
+#       <Element name="j.pd.f0_r" type="Quantity">0.0</Element>
+#       <Element name="j.pd.f1_r" type="Quantity">0.0</Element>
+#       <Element name="j.pd.iter0_r" type="Quantity">10</Element>
+#       <Element name="j.pd.iter1_r" type="Quantity">5</Element>
+#       <Element name="j.pd.pitime_upper_r" type="Quantity">50.0</Element>
+#       <Element name="j.pd.pitime_lower_r" type="Quantity">20.0</Element>
+#       <Element name="j.pd.sbc_freq_i1" type="int">195</Element>
+#       <Element name="j.pd.sbc_freq_i2" type="int">195</Element>
+#       <Element name="j.pi_time" type="Quantity">115.77465843665142</Element>
+#       <Element name="j.pd.t_ramp" type="int">2</Element>
+#       <Element name="j.pd.amp_g_init" type="int">30</Element>
+#       <Element name="j.pd.motion_phase" type="int">0</Element>
+#       <Element name="j.pd.f2_r" type="int">0</Element>
+#       <Element name="j.pd.f3_r" type="int">0</Element>
+#       <Element name="j.pd.f4_r" type="int">0</Element>
+#       <Element name="j.pd.iter2_r" type="int">0</Element>
+#       <Element name="j.pd.iter3_r" type="int">0</Element>
+#       <Element name="j.pd.iter4_r" type="int">0</Element>
+#       <Element name="j.pd.amp_ishutter" type="int">-156</Element>
+#       <Element name="j.pd.ramp_detuning" type="float">1.0</Element>
+#       <Element name="j.pd.amp_global_off" type="int">-60</Element>
+#       <Element name="j.pd.amp_i1_off" type="int">-140</Element>
+#       <Element name="j.pd.amp_i2_off" type="int">-140</Element>
+#       <Element name="j.pd.amp_ishutter_off" type="int">-160</Element>
+#       <Element name="j.pd.accumulated_phase" type="int">0</Element>
+#     </Element>
+#     <Element name="Scan" type="dict">
+#       <Element name="scanParameter" type="str">j.qubit_wait_time</Element>
+#       <Element name="scanTarget" type="str">Internal</Element>
+#       <Element name="scantype" type="int">0</Element>
+#       <Element name="scanMode" type="int">0</Element>
+#       <Element name="xUnit" type="str"></Element>
+#       <Element name="xExpression" type="str"></Element>
+#       <Element name="loadPP" type="bool">True</Element>
+#       <Element name="loadPPName" type="str">raman_co_prop_rfsoc_ramsey</Element>
+#       <Element name="parallelInternalScanParameter" type="str">None</Element>
+#     </Element>
+#     <ColumnSpec>timeTickFirst, timeTickLast, x, ion3, ion3_raw, ion3_bottom, ion3_top, ion4, ion4_raw, ion4_bottom, ion4_top, ion5, ion5_raw, ion5_bottom, ion5_top, ion2, ion2_raw, ion2_bottom, ion2_top, ion6, ion6_raw, ion6_bottom, ion6_top</ColumnSpec>
+#     <Element name="comment" type="str">700 - 850 ms</Element>
+#     <Element name="lastDataAquired" type="datetime">2023-12-14 23:28:12.523349+00:00</Element>
+#     <Element name="name" type="str"></Element>
+#     <Element name="traceCreation" type="datetime">2023-12-14 23:08:39.246868+00:00</Element>
+#     <Element name="traceFinalized" type="datetime">2023-12-14 23:28:12.544293+00:00</Element>
+#     <TracePlottingList>
+#       <TracePlotting _xColumn="x" _yColumn="ion3" _topColumn="ion3_top" _bottomColumn="ion3_bottom" _heightColumn="height" _filtColumn="None" name="ion3" type="0" xAxisUnit="" xAxisLabel="j.qubit_wait_time" yAxisLabel="None" windowName="Scan Data" _rawColumn="ion3_raw" fill="True" style="2" _fitFunction="None" properties="&lt;trace.PlottedTrace.PlottedTraceProperties object at 0x000001A0ABB936C8&gt;">
+#         <PlottedTraceProperties averageSameX="False" combinePoints="0" averageType="0"/>
+#       </TracePlotting>
+#       <TracePlotting _xColumn="x" _yColumn="ion4" _topColumn="ion4_top" _bottomColumn="ion4_bottom" _heightColumn="height" _filtColumn="None" name="ion4" type="0" xAxisUnit="" xAxisLabel="j.qubit_wait_time" yAxisLabel="None" windowName="Scan Data" _rawColumn="ion4_raw" fill="True" style="2" _fitFunction="None" properties="&lt;trace.PlottedTrace.PlottedTraceProperties object at 0x000001A0ABB93C88&gt;">
+#         <PlottedTraceProperties averageSameX="False" combinePoints="0" averageType="0"/>
+#       </TracePlotting>
+#       <TracePlotting _xColumn="x" _yColumn="ion5" _topColumn="ion5_top" _bottomColumn="ion5_bottom" _heightColumn="height" _filtColumn="None" name="ion5" type="0" xAxisUnit="" xAxisLabel="j.qubit_wait_time" yAxisLabel="None" windowName="Scan Data" _rawColumn="ion5_raw" fill="True" style="2" _fitFunction="None" properties="&lt;trace.PlottedTrace.PlottedTraceProperties object at 0x000001A0ABB93D08&gt;">
+#         <PlottedTraceProperties averageSameX="False" combinePoints="0" averageType="0"/>
+#       </TracePlotting>
+#       <TracePlotting _xColumn="x" _yColumn="ion2" _topColumn="ion2_top" _bottomColumn="ion2_bottom" _heightColumn="height" _filtColumn="None" name="ion2" type="0" xAxisUnit="" xAxisLabel="j.qubit_wait_time" yAxisLabel="None" windowName="Scan Data" _rawColumn="ion2_raw" fill="True" style="2" _fitFunction="None" properties="&lt;trace.PlottedTrace.PlottedTraceProperties object at 0x000001A0ABB93148&gt;">
+#         <PlottedTraceProperties averageSameX="False" combinePoints="0" averageType="0"/>
+#       </TracePlotting>
+#       <TracePlotting _xColumn="x" _yColumn="ion6" _topColumn="ion6_top" _bottomColumn="ion6_bottom" _heightColumn="height" _filtColumn="None" name="ion6" type="0" xAxisUnit="" xAxisLabel="j.qubit_wait_time" yAxisLabel="None" windowName="Scan Data" _rawColumn="ion6_raw" fill="True" style="2" _fitFunction="None" properties="&lt;trace.PlottedTrace.PlottedTraceProperties object at 0x000001A0ABB3E9C8&gt;">
+#         <PlottedTraceProperties averageSameX="False" combinePoints="0" averageType="0"/>
+#       </TracePlotting>
+#     </TracePlottingList>
+#   </Variables>
+# </DataFileHeader>
+1702595248.7460315	1702595248.7460315	700000.0	0.02	2	0.013211326166430611	0.025934253773024756	0.27	27	0.046649158806809615	0.05171336820695893	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.01	1	0.008659216072173556	0.022815286562470213
+1702595319.023437	1702595319.023437	710000.0	0.06	6	0.023702851518779815	0.03421239847149557	0.4	40	0.0526139661584078	0.05479523361690852	0.01	1	0.008659216072173556	0.022815286562470213	0.0	0	0.0	0.018461196270193356	0.02	2	0.013211326166430611	0.025934253773024756
+1702595390.2404008	1702595390.2404008	720000.0	0.0	0	0.0	0.018461196270193356	0.63	63	0.054425550331514305	0.05158610175259315	0.01	1	0.008659216072173556	0.022815286562470213	0.02	2	0.013211326166430611	0.025934253773024756	0.0	0	0.0	0.018461196270193356
+1702595462.4707048	1702595462.4707048	730000.0	0.02	2	0.013211326166430611	0.025934253773024756	0.7	70	0.05278360957377248	0.048393618242371095	0.0	0	0.0	0.018461196270193356	0.01	1	0.008659216072173556	0.022815286562470213	0.02	2	0.013211326166430611	0.025934253773024756
+1702595535.700704	1702595535.700704	740000.0	0.0	0	0.0	0.018461196270193356	0.7	70	0.05278360957377248	0.048393618242371095	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.01	1	0.008659216072173556	0.022815286562470213
+1702595609.924454	1702595609.924454	750000.0	0.0	0	0.0	0.018461196270193356	0.66	66	0.05386045402785644	0.050359548114700114	0.0	0	0.0	0.018461196270193356	0.01	1	0.008659216072173556	0.022815286562470213	0.02	2	0.013211326166430611	0.025934253773024756
+1702595685.1569364	1702595685.1569364	760000.0	0.02	2	0.013211326166430611	0.025934253773024756	0.54	54	0.05497756222843342	0.05410641332565236	0.03	3	0.016528313178965345	0.02846138312350585	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702595761.3806055	1702595761.3806055	770000.0	0.0	0	0.0	0.018461196270193356	0.56	56	0.05499749743417959	0.05369029842223838	0.0	0	0.0	0.018461196270193356	0.01	1	0.008659216072173556	0.022815286562470213	0.02	2	0.013211326166430611	0.025934253773024756
+1702595838.611626	1702595838.611626	780000.0	0.01	1	0.008659216072173556	0.022815286562470213	0.35	35	0.050791147097163314	0.05407113747766307	0.02	2	0.013211326166430611	0.025934253773024756	0.02	2	0.013211326166430611	0.025934253773024756	0.0	0	0.0	0.018461196270193356
+1702595916.837851	1702595916.837851	790000.0	0.01	1	0.008659216072173556	0.022815286562470213	0.22	22	0.043153845438960975	0.04936288079519982	0.01	1	0.008659216072173556	0.022815286562470213	0.0	0	0.0	0.018461196270193356	0.01	1	0.008659216072173556	0.022815286562470213
+1702595996.0556586	1702595996.0556586	800000.0	0.0	0	0.0	0.018461196270193356	0.29	29	0.04783911647274647	0.05245302418296505	0.01	1	0.008659216072173556	0.022815286562470213	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702596076.2926452	1702596076.2926452	810000.0	0.0	0	0.0	0.018461196270193356	0.39	39	0.05229281572951494	0.054693174079199824	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702596157.5209484	1702596157.5209484	820000.0	0.0	0	0.0	0.018461196270193356	0.47	47	0.05428449292150267	0.05493777202941763	0.01	1	0.008659216072173556	0.022815286562470213	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702596239.7406723	1702596239.7406723	830000.0	0.01	1	0.008659216072173556	0.022815286562470213	0.63	63	0.054425550331514305	0.05158610175259315	0.01	1	0.008659216072173556	0.022815286562470213	0.0	0	0.0	0.018461196270193356	0.01	1	0.008659216072173556	0.022815286562470213
+1702596322.9703455	1702596322.9703455	840000.0	0.01	1	0.008659216072173556	0.022815286562470213	0.58	58	0.05493714582760345	0.05319331295764662	0.02	2	0.013211326166430611	0.025934253773024756	0.02	2	0.013211326166430611	0.025934253773024756	0.01	1	0.008659216072173556	0.022815286562470213
+1702596407.1927722	1702596407.1927722	850000.0	0.0	0	0.0	0.018461196270193356	0.6	60	0.05479523361690852	0.052613966158407854	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.01	1	0.008659216072173556	0.022815286562470213
