@@ -1,0 +1,166 @@
+# <?xml version="1.0" ?>
+# <DataFileHeader>
+#   <Variables>
+#     <Element name="PulseProgram" type="dict">
+#       <Element name="PulseProgram" type="str">C:/Users/team_red/Documents/ControlTest/RFSoC_RamanTest/config/PulseProgramsPlus/barebones_rfsoc.ppp</Element>
+#       <Element name="DummyForStepInPlace" type="int">0</Element>
+#       <Element name="waitTime" type="int">0</Element>
+#       <Element name="CoolingTime" type="Quantity">0.5 ms</Element>
+#       <Element name="PumpTime" type="Quantity">50 탎</Element>
+#       <Element name="SBPumpTime" type="Quantity">10 탎</Element>
+#       <Element name="DetectTime" type="Quantity">250 탎</Element>
+#       <Element name="experiments" type="Quantity">100</Element>
+#       <Element name="EITTime" type="Quantity">500 탎</Element>
+#       <Element name="IndvAOMDelay" type="Quantity">150 탎</Element>
+#       <Element name="delta_t" type="int">0</Element>
+#       <Element name="dispTime" type="int">0</Element>
+#       <Element name="starkShift" type="int">0</Element>
+#       <Element name="CoolingDDSAmp" type="Quantity">200</Element>
+#       <Element name="PumpingDDSAmp" type="Quantity">1000</Element>
+#       <Element name="CoolingDDSFreq" type="Quantity">200.0 MHz</Element>
+#       <Element name="PumpingDDSFreq" type="Quantity">205 MHz</Element>
+#       <Element name="SBCool_Freq0_R" type="Quantity">0.0</Element>
+#       <Element name="SBCool_Freq1_R" type="Quantity">0.0</Element>
+#       <Element name="SBCool_Freq2_R" type="Quantity">0.0</Element>
+#       <Element name="SBCool_Freq3_R" type="Quantity">0.0</Element>
+#       <Element name="SBCool_Freq4_R" type="Quantity">211.40903215502058</Element>
+#       <Element name="SBCool_Iter0_R" type="Quantity">10</Element>
+#       <Element name="SBCool_Iter1_R" type="Quantity">5</Element>
+#       <Element name="SBCool_Iter2_R" type="Quantity">5</Element>
+#       <Element name="SBCool_Iter3_R" type="Quantity">5</Element>
+#       <Element name="SBCool_Iter4_R" type="Quantity">10</Element>
+#       <Element name="memsDelay" type="Quantity">20 탎</Element>
+#       <Element name="memsVoltages" type="Quantity">0</Element>
+#       <Element name="mems11" type="Quantity">0</Element>
+#       <Element name="mems12" type="Quantity">0</Element>
+#       <Element name="mems21" type="Quantity">0</Element>
+#       <Element name="mems22" type="Quantity">0</Element>
+#       <Element name="memsCalibrate" type="Quantity">0</Element>
+#       <Element name="j.__global_delay__" type="int">0</Element>
+#       <Element name="j.__repeats__" type="Quantity">100</Element>
+#       <Element name="j.pd.us" type="float">1e-06</Element>
+#       <Element name="j.n_circuits" type="int">1</Element>
+#       <Element name="j.carrier_freq" type="Quantity">209.5293776953636</Element>
+#       <Element name="j.pd.f0_r" type="Quantity">0.0 MHz</Element>
+#       <Element name="j.pd.f1_r" type="Quantity">0.0 MHz</Element>
+#       <Element name="j.pd.f2_r" type="Quantity">0.0 MHz</Element>
+#       <Element name="j.pd.f3_r" type="Quantity">0.0 MHz</Element>
+#       <Element name="j.pd.f4_r" type="Quantity">211.40903215502058 MHz</Element>
+#       <Element name="j.pd.iter0_r" type="Quantity">0</Element>
+#       <Element name="j.pd.iter1_r" type="Quantity">0</Element>
+#       <Element name="j.pd.iter2_r" type="Quantity">0</Element>
+#       <Element name="j.pd.iter3_r" type="Quantity">0</Element>
+#       <Element name="j.pd.iter4_r" type="Quantity">10</Element>
+#       <Element name="j.pd.pitime_upper_r" type="Quantity">50</Element>
+#       <Element name="j.pd.pitime_lower_r" type="Quantity">20</Element>
+#       <Element name="j.pd.sbc_freq_i1" type="float">195.5</Element>
+#       <Element name="j.pd.sbc_freq_i2" type="float">195.5</Element>
+#       <Element name="j.pd.t_ramp" type="int">2</Element>
+#       <Element name="j.pd.amp_g_init" type="int">35</Element>
+#       <Element name="j.pd.amp_ishutter" type="int">0</Element>
+#       <Element name="j.pd.motion_phase" type="int">0</Element>
+#       <Element name="j.pd.ramp_detuning" type="float">1.0</Element>
+#       <Element name="j.pd.amp_global_off" type="int">-60</Element>
+#       <Element name="j.pd.amp_i1_off" type="int">-120</Element>
+#       <Element name="j.pd.amp_i2_off" type="int">-140</Element>
+#       <Element name="j.pd.amp_ishutter_off" type="int">-50</Element>
+#       <Element name="j.pd.accumulated_phase" type="int">0</Element>
+#       <Element name="j.n_trotter" type="int">1</Element>
+#       <Element name="j.pi_time_blue" type="Quantity">122.7759493124961</Element>
+#       <Element name="j.freq_r_tilt" type="Quantity">211.40807415502059</Element>
+#       <Element name="j.freq_b_tilt" type="Quantity">207.64723784582262</Element>
+#       <Element name="j.freq_r_com" type="Quantity">211.40642653052365</Element>
+#       <Element name="j.freq_b_com" type="Quantity">207.861</Element>
+#       <Element name="j.amp_g_r" type="Quantity">10</Element>
+#       <Element name="j.amp_g_b" type="Quantity">0</Element>
+#       <Element name="j.pi_time" type="Quantity">9.66285557923959</Element>
+#       <Element name="j.amp_shutter" type="int">0</Element>
+#       <Element name="j.pi_time_blue_2" type="Quantity">104.38767810170738</Element>
+#       <Element name="j.phi_0" type="int">0</Element>
+#       <Element name="j.light_shift" type="int">0</Element>
+#       <Element name="j.ms_time" type="int">0</Element>
+#       <Element name="j.indv1_freq" type="float">195.5</Element>
+#       <Element name="j.indv2_freq" type="float">195.5</Element>
+#       <Element name="j.indv2_amp" type="float">0.0</Element>
+#       <Element name="j.ms_freq_red" type="Quantity">211.40903215502058</Element>
+#       <Element name="j.ms_freq_blue" type="Quantity">207.94819584582262</Element>
+#       <Element name="j.global_amp_red" type="Quantity">10</Element>
+#       <Element name="j.global_amp_blue" type="Quantity">0</Element>
+#       <Element name="j.n_bar" type="Quantity">1.0</Element>
+#       <Element name="j.pi_time_weak" type="float">99.452747</Element>
+#       <Element name="j.carrier_time" type="float">0.0</Element>
+#       <Element name="j.phi_cal" type="float">0.0</Element>
+#     </Element>
+#     <Element name="Scan" type="dict">
+#       <Element name="scanParameter" type="str">j.phi_cal</Element>
+#       <Element name="scanTarget" type="str">Internal</Element>
+#       <Element name="scantype" type="int">0</Element>
+#       <Element name="scanMode" type="int">0</Element>
+#       <Element name="xUnit" type="str"></Element>
+#       <Element name="xExpression" type="str"></Element>
+#       <Element name="loadPP" type="bool">True</Element>
+#       <Element name="loadPPName" type="str">stochastic_kick_sq_red</Element>
+#       <Element name="parallelInternalScanParameter" type="str">None</Element>
+#     </Element>
+#     <ColumnSpec>timeTickFirst, timeTickLast, x, ion3, ion3_raw, ion3_bottom, ion3_top, ion4, ion4_raw, ion4_bottom, ion4_top, ion5, ion5_raw, ion5_bottom, ion5_top, ion2, ion2_raw, ion2_bottom, ion2_top, ion6, ion6_raw, ion6_bottom, ion6_top</ColumnSpec>
+#     <Element name="comment" type="str">had + had 0.5 overrotation</Element>
+#     <Element name="lastDataAquired" type="datetime">2023-12-18 21:53:07.956067+00:00</Element>
+#     <Element name="name" type="str"></Element>
+#     <Element name="traceCreation" type="datetime">2023-12-18 21:52:56.485667+00:00</Element>
+#     <Element name="traceFinalized" type="datetime">2023-12-18 21:53:07.963048+00:00</Element>
+#     <TracePlottingList>
+#       <TracePlotting _xColumn="x" _yColumn="ion3" _topColumn="ion3_top" _bottomColumn="ion3_bottom" _heightColumn="height" _filtColumn="None" name="ion3" type="0" xAxisUnit="" xAxisLabel="j.phi_cal" yAxisLabel="None" windowName="Scan Data" _rawColumn="ion3_raw" fill="True" style="2" _fitFunction="None" properties="&lt;trace.PlottedTrace.PlottedTraceProperties object at 0x00000288D422FC08&gt;">
+#         <PlottedTraceProperties averageSameX="False" combinePoints="0" averageType="0"/>
+#       </TracePlotting>
+#       <TracePlotting _xColumn="x" _yColumn="ion4" _topColumn="ion4_top" _bottomColumn="ion4_bottom" _heightColumn="height" _filtColumn="None" name="ion4" type="0" xAxisUnit="" xAxisLabel="j.phi_cal" yAxisLabel="None" windowName="Scan Data" _rawColumn="ion4_raw" fill="True" style="2" _fitFunction="None" properties="&lt;trace.PlottedTrace.PlottedTraceProperties object at 0x00000288D3CA9708&gt;">
+#         <PlottedTraceProperties averageSameX="False" combinePoints="0" averageType="0"/>
+#       </TracePlotting>
+#       <TracePlotting _xColumn="x" _yColumn="ion5" _topColumn="ion5_top" _bottomColumn="ion5_bottom" _heightColumn="height" _filtColumn="None" name="ion5" type="0" xAxisUnit="" xAxisLabel="j.phi_cal" yAxisLabel="None" windowName="Scan Data" _rawColumn="ion5_raw" fill="True" style="2" _fitFunction="None" properties="&lt;trace.PlottedTrace.PlottedTraceProperties object at 0x00000288D42BA308&gt;">
+#         <PlottedTraceProperties averageSameX="False" combinePoints="0" averageType="0"/>
+#       </TracePlotting>
+#       <TracePlotting _xColumn="x" _yColumn="ion2" _topColumn="ion2_top" _bottomColumn="ion2_bottom" _heightColumn="height" _filtColumn="None" name="ion2" type="0" xAxisUnit="" xAxisLabel="j.phi_cal" yAxisLabel="None" windowName="Scan Data" _rawColumn="ion2_raw" fill="True" style="2" _fitFunction="None" properties="&lt;trace.PlottedTrace.PlottedTraceProperties object at 0x00000288D076FC88&gt;">
+#         <PlottedTraceProperties averageSameX="False" combinePoints="0" averageType="0"/>
+#       </TracePlotting>
+#       <TracePlotting _xColumn="x" _yColumn="ion6" _topColumn="ion6_top" _bottomColumn="ion6_bottom" _heightColumn="height" _filtColumn="None" name="ion6" type="0" xAxisUnit="" xAxisLabel="j.phi_cal" yAxisLabel="None" windowName="Scan Data" _rawColumn="ion6_raw" fill="True" style="2" _fitFunction="None" properties="&lt;trace.PlottedTrace.PlottedTraceProperties object at 0x00000288D45C7A08&gt;">
+#         <PlottedTraceProperties averageSameX="False" combinePoints="0" averageType="0"/>
+#       </TracePlotting>
+#     </TracePlottingList>
+#   </Variables>
+# </DataFileHeader>
+1702936376.0166996	1702936376.0166996	0.0	0.0	0	0.0	0.018461196270193356	0.19	19	0.0406439120907989	0.04755873374108008	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936376.4687133	1702936376.4687133	10.0	0.0	0	0.0	0.018461196270193356	0.18	18	0.039727004249395764	0.046881535853175144	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936376.785866	1702936376.785866	20.0	0.01	1	0.008659216072173556	0.022815286562470213	0.19	19	0.0406439120907989	0.04755873374108008	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936377.1040156	1702936377.1040156	30.0	0.0	0	0.0	0.018461196270193356	0.18	18	0.039727004249395764	0.046881535853175144	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936377.4211848	1702936377.4211848	40.0	0.0	0	0.0	0.018461196270193356	0.17	17	0.0387656477822822	0.046162647813752206	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936377.7373397	1702936377.7373397	50.0	0.0	0	0.0	0.018461196270193356	0.18	18	0.039727004249395764	0.046881535853175144	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936378.0534947	1702936378.0534947	60.0	0.0	0	0.0	0.018461196270193356	0.15	15	0.036696360202145104	0.04458834705372586	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936378.3786259	1702936378.3786259	70.0	0.0	0	0.0	0.018461196270193356	0.12	12	0.0331600393910248	0.04182942613925658	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936378.6907914	1702936378.6907914	80.0	0.0	0	0.0	0.018461196270193356	0.17	17	0.0387656477822822	0.046162647813752206	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936379.017917	1702936379.017917	90.0	0.0	0	0.0	0.018461196270193356	0.13	13	0.03440368356499915	0.04280813156302796	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936379.334072	1702936379.334072	100.0	0.0	0	0.0	0.018461196270193356	0.11	11	0.031842004931677936	0.040783801767262415	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936379.6512415	1702936379.6512415	110.0	0.0	0	0.0	0.018461196270193356	0.17	17	0.0387656477822822	0.046162647813752206	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936379.9674013	1702936379.9674013	120.0	0.0	0	0.0	0.018461196270193356	0.16	16	0.037756663885409034	0.04539931114861881	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936380.2855551	1702936380.2855551	130.0	0.0	0	0.0	0.018461196270193356	0.17	17	0.0387656477822822	0.046162647813752206	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936380.6037004	1702936380.6037004	140.0	0.0	0	0.0	0.018461196270193356	0.18	18	0.039727004249395764	0.046881535853175144	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936380.9258428	1702936380.9258428	150.0	0.0	0	0.0	0.018461196270193356	0.18	18	0.039727004249395764	0.046881535853175144	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936381.2429893	1702936381.2429893	160.0	0.0	0	0.0	0.018461196270193356	0.13	13	0.03440368356499915	0.04280813156302796	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936381.5736206	1702936381.5736206	170.0	0.0	0	0.0	0.018461196270193356	0.14	14	0.03558040879075074	0.04372606317244215	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936381.8887782	1702936381.8887782	180.0	0.0	0	0.0	0.018461196270193356	0.17	17	0.0387656477822822	0.046162647813752206	0.01	1	0.008659216072173556	0.022815286562470213	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936382.199069	1702936382.199069	190.0	0.0	0	0.0	0.018461196270193356	0.1	10	0.03044034399551654	0.03966378710989574	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936382.5254266	1702936382.5254266	200.0	0.0	0	0.0	0.018461196270193356	0.23	23	0.0439173362407444	0.04989472905617606	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936382.845236	1702936382.845236	210.0	0.0	0	0.0	0.018461196270193356	0.1	10	0.03044034399551654	0.03966378710989574	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.01	1	0.008659216072173556	0.022815286562470213
+1702936383.1657095	1702936383.1657095	220.0	0.0	0	0.0	0.018461196270193356	0.17	17	0.0387656477822822	0.046162647813752206	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936383.483952	1702936383.483952	230.0	0.0	0	0.0	0.018461196270193356	0.16	16	0.037756663885409034	0.04539931114861881	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936383.8032236	1702936383.8032236	240.0	0.0	0	0.0	0.018461196270193356	0.21	21	0.042355067784438705	0.048797409795396623	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936384.1147058	1702936384.1147058	250.0	0.0	0	0.0	0.018461196270193356	0.17	17	0.0387656477822822	0.046162647813752206	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936384.4376483	1702936384.4376483	260.0	0.0	0	0.0	0.018461196270193356	0.15	15	0.036696360202145104	0.04458834705372586	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936384.755289	1702936384.755289	270.0	0.0	0	0.0	0.018461196270193356	0.16	16	0.037756663885409034	0.04539931114861881	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936385.0751882	1702936385.0751882	280.0	0.0	0	0.0	0.018461196270193356	0.17	17	0.0387656477822822	0.046162647813752206	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936385.3941233	1702936385.3941233	290.0	0.0	0	0.0	0.018461196270193356	0.2	20	0.04151912978068406	0.04819665194285455	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936385.7131188	1702936385.7131188	300.0	0.0	0	0.0	0.018461196270193356	0.24	24	0.04464720430370078	0.05039443895212331	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936386.0324793	1702936386.0324793	310.0	0.0	0	0.0	0.018461196270193356	0.21	21	0.042355067784438705	0.048797409795396623	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936386.3524	1702936386.3524	320.0	0.0	0	0.0	0.018461196270193356	0.13	13	0.03440368356499915	0.04280813156302796	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936386.6740818	1702936386.6740818	330.0	0.0	0	0.0	0.018461196270193356	0.15	15	0.036696360202145104	0.04458834705372586	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936386.988243	1702936386.988243	340.0	0.0	0	0.0	0.018461196270193356	0.14	14	0.03558040879075074	0.04372606317244215	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936387.305393	1702936387.305393	350.0	0.0	0	0.0	0.018461196270193356	0.23	23	0.0439173362407444	0.04989472905617606	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
+1702936387.6209853	1702936387.6209853	360.0	0.0	0	0.0	0.018461196270193356	0.18	18	0.039727004249395764	0.046881535853175144	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356	0.0	0	0.0	0.018461196270193356
